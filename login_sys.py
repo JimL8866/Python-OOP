@@ -1,6 +1,6 @@
 class UserInfo:
     def __init__(self):
-        self.name = None
+        self.name = None    # name attr to none
 
     def info(self):
         print(f"Current user is : {self.name}")
@@ -15,7 +15,7 @@ class UserInfo:
         username = input("Please put your username")
         pwd = input("Please put your password")
         if username == "jim" and pwd == "1234":
-            self.name = username
+            self.name = username    # name attr to username
             while True:
                 print("""
                     1. View user information
